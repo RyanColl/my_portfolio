@@ -1,0 +1,31 @@
+.top-settings {
+    position: fixed;
+    height: 26px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    top: 0px;
+    z-index: 11;
+    background-color: rgba(255, 255, 255, 0.635);
+}
+.settings-item {
+    padding: 3px 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    span, svg {
+        margin: 0 0.5em
+    }
+    cursor: default;
+}
+.settings-item:nth-child(i*1) {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.settings-left {
+
+}
+.settings-right {
+
+}
