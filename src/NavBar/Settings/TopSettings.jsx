@@ -17,6 +17,7 @@ const TopSettings = () => {
         return () => clearInterval(interval)
     })
 
+    
   return (
     <div className='top-settings'>
         <div className='settings-left settings-item'>

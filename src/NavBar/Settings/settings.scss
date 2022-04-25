@@ -1,6 +1,6 @@
 .top-settings {
     position: fixed;
-    height: 26px;
+    height: 30px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -20,8 +20,8 @@
     }
     cursor: default;
 }
-.settings-item:nth-child(i*1) {
-    background-color: rgba(255, 255, 255, 0.8);
+.settings-item {
+    
 }
 .settings-left {
 
