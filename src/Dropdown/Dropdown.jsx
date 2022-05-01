@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Dropdown = () => {
+const Dropdown = ({element}) => {
   return (
-    <div>Dropdown</div>
+    <div className='dropdown'>
+      <>{element}</>
+    </div>
   )
 }
 
